@@ -1,0 +1,88 @@
+body{
+    /* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"); */
+    color: red;
+    background-color: black;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 259px;
+    width: 276px;
+}
+
+
+header{
+    text-align: center;
+}
+
+#topbar {
+    text-align: center;
+    margin-top: 5%;
+    /* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"); */
+}
+
+table {
+    margin-left: 25%;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    
+    border-spacing:10px;
+    border-collapse: separate;
+    /* background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png"); */
+    /* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"); */
+
+    background-color:black;
+
+}
+
+th, thead {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+td {
+    font-size: 18px;
+}
+
+
+th, thead, tr, td {
+    border: 5px;
+    border-color: antiquewhite;
+    border-spacing:10px;
+    border-collapse: separate;
+}
+
+#submit {
+    background: url(https://i.ibb.co/vJX0qwk/ff1e70db-38bf-44ad-9737-874e66c41c7d-200x200.png);
+    height: 50px;
+    width: 185px;
+    background-position: center;
+    border-color: rgb(184, 187, 187);
+}
+
+button, input {
+    overflow: hidden;
+    height: 50px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+#instr {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+}
+
+#social {
+    margin-left: 31%;
+    margin-top: 4%;
+    margin-bottom: 1px;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+    background-color: transparent;
+    /* padding-left: 94%; */
+    font-size: 75px;
+    margin-left: 60%;
+}
