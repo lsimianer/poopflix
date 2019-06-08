@@ -61,6 +61,13 @@ th, thead, tr, td {
     border-color: rgb(184, 187, 187);
 }
 
+button:hover {
+    border: 8px;
+    border-color: goldenrod;
+    animation: shake 1.90s cubic-bezier(.36,.07,.19,.97) both;
+
+}  
+
 button, input {
     overflow: hidden;
     height: 50px;
@@ -85,4 +92,32 @@ a {
     /* padding-left: 94%; */
     font-size: 75px;
     margin-left: 60%;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+}
+
+@keyframes bouncing {
+    0%, 50%, 100% { /* OR from, 50%, to */
+        top: 0;
+    }
+    25%, 75% {
+        top: 100px;
+    }
+
 }
